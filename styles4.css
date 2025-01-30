@@ -81,3 +81,29 @@ body {
     color: lightblue;
   }
   
+
+  /* Estilos para el botón */
+.instagram-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.instagram-button a {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.instagram-button a:hover {
+  color: #E4405F; /* Cambia al color característico de Instagram */
+}
