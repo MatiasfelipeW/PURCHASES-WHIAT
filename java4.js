@@ -77,3 +77,12 @@ cuentas.forEach(cuenta => {
     });
 });
 
+document.getElementById("btnPagos").addEventListener("click", function() {
+    var infoPagos = document.getElementById("infoPagos");
+    if (infoPagos.style.display === "none" || infoPagos.style.display === "") {
+      infoPagos.style.display = "block";
+    } else {
+      infoPagos.style.display = "none";
+    }
+  });
+  
