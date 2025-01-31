@@ -1,5 +1,5 @@
 // Tasas de cambio personalizadas
-const tasaCambioUSDToCOP = 4100; // 1 USD = 4100 COP
+const tasaCambioUSDToCOP = 4100; // 1 USD = 4200 COP
 const tasaCambioUSDToARS = 1150; // 1 USD = 1150 ARS
 
 // Función para convertir los precios
@@ -18,8 +18,8 @@ const cuentas = [
     {nombre: "YouTube 1 mes", precio: "2.0 USD", imagen: "media/youtube.webp"},
     {nombre: "Prime Video 1 pantalla", precio: "1.8 USD", imagen: "media/6.jpeg"},
     {nombre: "Paramount 1 pantalla", precio: "1.8 USD", imagen: "media/paramount.webp"},
-    {nombre: "Netflix 1 pantalla", precio: "2.50 USD", imagen: "media/3.jpeg"},
-    {nombre: "Netflix 5 pantallas", precio: "10 USD", imagen: "media/netflix.jpg"},
+    {nombre: "Netflix 1 pantalla", precio: "2.0 USD", imagen: "media/3.jpeg"},
+    {nombre: "Netflix 5 pantallas", precio: "8.8 USD", imagen: "media/netflix.jpg"},
     {nombre: "Paramount Plus 5 pantallas", precio: "3 USD", imagen: "media/paramount.webp"},
     {nombre: "HBO Max 5 pantallas", precio: "3.5 USD", imagen: "media/1.jpeg"},
     {nombre: "Crunchyroll cuenta completa", precio: "2.8 USD", imagen: "media/crunchy.jpg"},
@@ -28,8 +28,8 @@ const cuentas = [
     {nombre: "Vix Premium 1 pantalla", precio: "2 USD", imagen: "media/vix.webp"},
     {nombre: "Vix 5 pantallas", precio: "3.0 USD", imagen: "media/vix.webp"},
     {nombre: "Disney Plus 1 pantalla", precio: "1.8 USD", imagen: "media/disney.jpg"},
-    {nombre: "IPTV Multicanales 1 pantalla", precio: "3 USD", imagen: "media/iptv.webp"},
-    {nombre: "Spotify 1 mes", precio: "2.5 USD", imagen: "media/spotify.webp"}
+    {nombre: "IPTV Multicanales 1 pantalla", precio: "2 USD", imagen: "media/iptv.webp"},
+    {nombre: "Spotify 1 mes", precio: "2.30 USD", imagen: "media/spotify.webp"}
 ];
 
 // Mostrar las tarjetas con el precio actualizado según la moneda seleccionada
