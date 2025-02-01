@@ -48,30 +48,43 @@ body {
 }
 
 .hidden {
-    opacity: 0;
+  opacity: 0;
 }
+
 .pago-barra {
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  animation: cambioColor 2s infinite alternate; /* Aplica la animación */
+}
+
+.btn-pagos {
+  color: white;
+  background-color: transparent; /* Para que no sobrescriba el fondo de la barra */
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+/* Definimos la animación */
+@keyframes cambioColor {
+  0% {
     background-color: red;
-    text-align: center;
-    padding: 10px;
-    position: relative;
   }
-  
-  .btn-pagos {
-    color: white;
-    background-color: red;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
+  100% {
+    background-color: green;
   }
-  
-  .info-pagos {
-    display: none;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    margin-top: 10px;
-  }
+}
+.info-pagos {
+  display: none;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
   
   a {
     color: white;
