@@ -1,5 +1,5 @@
 // Tasas de cambio personalizadas
-const tasaCambioUSDToCOP = 4100; // 1 USD = 4200 COP
+const tasaCambioUSDToCOP = 4600; // 1 USD = 4200 COP
 const tasaCambioUSDToARS = 1150; // 1 USD = 1150 ARS
 
 // Función para convertir los precios
